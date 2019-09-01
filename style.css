@@ -4,32 +4,21 @@ body {
 }
 
 /* side navbar styling starts here  */
-.current {
-  background-color: orange;
-  border-radius: 5px;
-}
-.current {
-  transition: all 0.3s;
-}
-.current:hover {
-  background-color: #6c7b95;
-  border-radius: 5px;
-  margin: 6px;
-}
-
 .sidebar {
   background: #042f4b;
   height: 100vh;
+  overflow-y: auto;
 }
-
 .sidebar-btn {
+  margin: 3px 0px;
   transition: all 0.4s;
-  margin: 5px;
+  border-radius: 5px;
 }
 .sidebar-btn:hover {
   background-color: #6c7b95;
-  border-radius: 5px;
-  margin: 6px;
+}
+.selected {
+  background-color: orange;
 }
 .fas-margin {
   margin-left: 20px;
