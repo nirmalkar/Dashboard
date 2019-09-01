@@ -15,36 +15,164 @@
 
 <body>
   <div class="row no-gutters">
-    <div class="col-lg-3 navColor">
-      <div class="" style="height: 100vh">
-        <div class="opacity">
-          <div class=" text-center border-bottom">
-            <a href="" class="navbar-brand text-white my-4">Navbar Brand</a>
+    <div class="col-lg-3 h-100vh sidebar" style="overflow-y:auto">
+      <div class="">
+        <div>
+          <div class="text-center border-bottom">
+            <a href="#" class="navbar-brand text-white my-4">Navbar Brand</a>
           </div>
-
-
-
-          <div class="bottom-border pt-4 text-center">
+          <div class="nav-item border-bottom pb-4 pt-3 text-center">
             <img class="rounded-circle mr-3" src="img/img.jpg" alt="" width="70px">
             <a href="#" class="text-white">
               <h6 class="pt-3 ">Hemant Nirmalkar</h6>
             </a>
-          </div>
-          <div class="mt-4 text-center">
-            <h6 class="text-white d-inline">hemantnirmalkar17@gmail.com</h6>
-            <a href="#"> <i class="fas fa-caret-down ml-2"></i></a>
-          </div>
-        </div>
+            <!-- </div> -->
+            <div class="mt-4 ">
+              <h6 class="text-white  d-inline">hemantnirmalkar17@gmail.com</h6>
+              <a href="#"> <i class="fas fa-caret-down ml-2"></i></a>
+            </div>
 
+          </div>
+          <div class="nav-item">
+            <ul class="navbar-nav flex-column mt-4 bottom-border">
+              <li class="">
+                <a href="#" class="nav-link text-white current">
+                  <i class="fas fas-margin fa-home text-white fa-lg">
+                  </i>
+                  Dashboard
+                </a>
+              </li>
+              <li class="">
+                <a href="#" class="nav-link text-white sidebar-btn">
+                  <i class="fas fas-margin fa-project-diagram text-white fa-lg">
+                  </i>
+                  Projects
+                </a>
+              </li>
+              <li class="">
+                <a href="#" class="nav-link text-white sidebar-btn">
+                  <i class="fas fas-margin fa-layer-group text-white fa-lg">
+                  </i>Platform
+                </a>
+              </li>
+              <li class="">
+                <a href="#" class="nav-link text-white sidebar-btn">
+                  <i class="fas fas-margin fa-handshake text-white fa-lg">
+                  </i>
+                  Sales
+                </a>
+              </li>
+              <li class="">
+                <a href="#" class="nav-link text-white sidebar-btn">
+                  <i class="fas fas-margin fa-desktop text-white fa-lg">
+                  </i>
+                  Reports
+                </a>
+              </li>
+              <li class="">
+                <a href="#" class="nav-link text-white sidebar-btn">
+                  <i class="fas fas-margin fa-pencil-alt text-white fa-lg">
+
+                  </i>
+                  Statements
+                </a>
+              </li>
+              <li class="">
+                <a href="#" class="nav-link text-white sidebar-btn">
+                  <i class="fas fas-margin fa-chart-pie text-white fa-lg">
+                  </i>
+                  Analytics
+                </a>
+              </li>
+              <li class="">
+                <a href="#" class="nav-link text-white sidebar-btn">
+                  <i class="fas fas-margin fa-receipt text-white fa-lg">
+                  </i>
+                  Expenses
+                </a>
+              </li>
+              <li class="" border-bottom">
+                <a href="#" class="nav-link text-white sidebar-btn">
+                  <i class="fas fas-margin fa-users text-white fa-lg">
+                  </i>
+                  Users
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="row text-center border-top border-bottom">
+            <div class="col-12">
+              <a href="#" class="nav-link text-white ">
+                Company
+                <i class="far fa-copyright text-white fa-sm ">
+
+                </i>
+              </a>
+              <a href="#" class="nav-link text-white ">
+                Terms & Conditions
+              </a>
+            </div>
+          </div>
+
+
+
+        </div>
       </div>
     </div>
-    <div class="col-md-9">
-      <div class="topNavColor" style="height: 50px">
-        <div class="row mb-4">
-          <div class=" col">
-            <h4 class="text-muted text-uppercase">Dashboard</h4>
+
+    <!-- topnavbar starts -->
+    <div class="col-lg-9" style="height: 100vh; overflow-y: scroll;">
+
+      <div class="bg-secondary" style="height: 50px">
+        <div class="row mb-4 no-gutters">
+
+          <div class="col-4">
+            <h4 class="text-light text-uppercase ml-3 mt-2">Dashboard</h4>
+          </div>
+          <div class="col-4">
+            <form>
+              <div class="input-group text-left">
+                <input type="text" class="search-input form-control" placeholder="Search..">
+                <button class="btn ml-1 btn-white search-button" style="background-color: transparent"><i
+                    class="fas fas-margin fa-search fa-lg text-white "></i></button>
+                <!-- <i class="fas fas-margin fa-search fa-lg text-white ml-3 mt-1 py-2"></i> -->
+              </div>
+            </form>
+          </div>
+          <div class="col-4">
+            <div class="row">
+              <div class="col-4 mt-3 text-right">
+
+                <a href="#" class="nav-links ">
+                  <i class="fas fas-margin fa-comments fa-lg text-white">
+                  </i>
+                </a>
+
+              </div>
+              <div class="col-4 mt-3">
+
+                <a href="#" class="nav-links ">
+                  <i class="fas fa-bell fa-lg text-white">
+
+                  </i>
+                </a>
+
+              </div>
+              <div class="col-4 mt-3">
+
+                <a href="#" class="nav-links " data-toggle="modal" data-target="#sign-out">
+                  <i class="fas fa-sign-out-alt fa-lg text-white">
+                  </i>
+                </a>
+
+              </div>
+            </div>
+
+            </ul>
           </div>
         </div>
+      </div>
+      <div class="container">
         <div class="row no-gutters">
           <div class="col-md-4">
             <div class="card m-2">
@@ -189,6 +317,7 @@
           </div>
         </div>
       </div>
+
     </div>
     <a href="#" class="btn btn-danger shadow-lg rounded-circle messageBtn position-fixed"
       style="bottom: 20px; right: 20px; z-index: 999;">

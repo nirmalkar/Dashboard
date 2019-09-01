@@ -2,22 +2,66 @@ body {
   font-family: "Roboto", sans-serif;
   /* background: #eee; */
 }
-.opacity {
-  background-color: rgba(255, 255, 255, 0.2);
-  height: 300px;
+
+/* side navbar styling starts here  */
+.current {
+  background-color: orange;
+  border-radius: 5px;
 }
-.navColor {
-  background-image: radial-gradient(
-    circle 788px at 14.5% 19.3%,
-    rgba(81, 109, 179, 1) 0%,
-    rgba(178, 98, 152, 1) 100.2%
-  );
+.current {
+  transition: all 0.3s;
+}
+.current:hover {
+  background-color: #6c7b95;
+  border-radius: 5px;
+  margin: 6px;
 }
 
-.topNavColor {
-  background-image: radial-gradient(
-    circle farthest-corner at 10% 20%,
-    rgba(127, 113, 116, 1) 0.1%,
-    rgba(79, 70, 72, 1) 90%
-  );
+.sidebar {
+  background: #042f4b;
+  height: 100vh;
+}
+
+.sidebar-btn {
+  transition: all 0.4s;
+  margin: 5px;
+}
+.sidebar-btn:hover {
+  background-color: #6c7b95;
+  border-radius: 5px;
+  margin: 6px;
+}
+.fas-margin {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* side navbar styling ends here  */
+
+/* search box starts */
+
+.search-input {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  transition: all 0.4s;
+}
+.search-input:focus {
+  background: transparent;
+  box-shadow: none;
+  border-bottom: 2px solid #088a97;
+}
+/* .search-input:hover {
+  background-color: #fff;
+} */
+
+.search-button {
+  border: none;
+  color: #fff;
+}
+
+/* search box ends */
+
+.h-100vh {
+  height: 100vh;
 }
